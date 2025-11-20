@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 40px;
+        }
+        
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .project-section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .project-section:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        h2 {
+            color: #764ba2;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .github-link {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background: #24292e;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        
+        .github-link:hover {
+            background: #0366d6;
+        }
+        
+        .links-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .link-item {
+            padding: 12px 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .link-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .link-item a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .link-item a:hover {
+            color: #764ba2;
+        }
+        
+        .link-icon {
+            font-size: 1.2em;
+        }
+        
+        .drive-folder {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        
+        .drive-folder a {
+            color: #d35400;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .drive-folder a:hover {
+            color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 My Projects Portfolio</h1>
+        
+        <!-- Speech and Signal Project -->
+        <div class="project-section">
+            <h2>📢 Speech and Signal Processing</h2>
+            <div class="links-container">
+                <div class="link-item">
+                    <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221pOvS5Y0gv0XJnNFo538nu6RcBz8tnRY5%22%5D,%22action%22:%22open%22,%22userId%22:%22102699850012349971751%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank">
+                        <span class="link-icon">🤖</span> AI Studio Chat
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1rtW7OgbBc6zblA0eJp0InadisNT8smu4/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📁</span> Drive File
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Drishti Yantra Project -->
+        <div class="project-section">
+            <h2>📚 Drishti Yantra (arXiv Paper Explainer)</h2>
+            <p style="margin-bottom: 15px; color: #555; font-style: italic;">A Retrieval-Augmented Generation (RAG) System for Research Paper Analysis</p>
+            <a href="https://github.com/GopalTomar/The-Paper-Decoder" class="github-link" target="_blank">
+                ⭐ View on GitHub
+            </a>
+            <div class="links-container">
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/126DQ2lm7j42nZJxG1xUkNqiuoRmSIgYS/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 1
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/13wqkIk0YrYW3z9EpwF8wjhqgm1Asx4jV/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 2
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/15FL0E7WdnCGjgzSVOZttVQDk2gTNxLpE/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 3
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/15QoVilyoxgTI7sVKXqh2rQEuLwOaUds7/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 4
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/18mJMfS8Dsdxx3_GJk04fticWx4T94v5U/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 5
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2218vqnIptDvRPp0qX8b4VJvxPhvp7gV0uY%22%5D,%22action%22:%22open%22,%22userId%22:%22102699850012349971751%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank">
+                        <span class="link-icon">🤖</span> AI Studio Chat
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1Cl3fDPg7TxBfgi2xckYASLiSkkN53o-u/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 6
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1EIBWqe8YLSJcAL1zsqNzID5fNwt1dHdC/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 7
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1GX9MBIjhhrzn0U6Pq9o6Ge9wQT6mbpX5/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 8
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1NlHrw_WcTRyIKtBTcbdV0TfdPwOhsvOY/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 9
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1RP90VCtpte121G-8kAtxXeExUOhJQwRp/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 10
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1ijtiKJdB8hoHi_dK2Kcz25IgL4b3WJr0/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 11
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1ivEolXn4d8cZtIlX_GBWp8SRvUiYXcWR/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Document 12
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Time Series Analysis Project -->
+        <div class="project-section">
+            <h2>📊 Time Series Analysis and Forecasting</h2>
+            <p style="margin-bottom: 15px; color: #555; font-style: italic;">NO₂ and CO Pollution in Bengaluru and Delhi</p>
+            <div class="drive-folder">
+                <a href="https://drive.google.com/drive/folders/17enwZiJxJKUVUZjx8j6i-TLpRA4w7ljd?usp=drive_link" target="_blank">
+                    📂 Main Project Folder
+                </a>
+            </div>
+            <div class="links-container">
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/12JXRgkGRGSXeUYdiusXgTGNYwAFsw8wE/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Analysis File 1
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/16BrA9Chn-wIWIqTmjPmU_40VEqDaiNv1/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Analysis File 2
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/17tD3S__SBUOAD0-wsTqsEz3t3kJ1aGXU/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Analysis File 3
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1DmN5nfrO7RmYbdpPunPI7_3apyOEPxOL/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Analysis File 4
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1OgU6fKj6B5kb2FPYgSin5hiuwBB8yIyA/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Analysis File 5
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1ZBuX-bFbplVteQMD5_kLjsN-2JKamktt/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Analysis File 6
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221eqE1TLKHp2Q6wqqMtaaw6JdgkZ2MkyTp%22%5D,%22action%22:%22open%22,%22userId%22:%22102699850012349971751%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank">
+                        <span class="link-icon">🤖</span> AI Studio Chat
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1jp_JXpDoMcZY7AMiHuzOoooHs6DC6bYQ/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Analysis File 7
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1m3E-kAAYHr-wy1kKxfwPkchAZlRlQUqd/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Analysis File 8
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1y-B1KbRrgT1rAitrd2RCVt6eBdHeTr6b/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Analysis File 9
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Environmental Analysis Dashboard -->
+        <div class="project-section">
+            <h2>🌍 Environmental Analysis Dashboard</h2>
+            <a href="https://github.com/GopalTomar/Global-Ecosystem-Monitor" class="github-link" target="_blank">
+                ⭐ View on GitHub
+            </a>
+            <div class="links-container">
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1-2Vo0b7PB-hUHIu8a5-C-Bv8ndU3Tylg/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 1
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1-zqFZYyH9GM6WRhKVV_mtp78wgRMGUBn/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 2
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/10FEYH_hbV3gvOMk0QwfS-kM0Lu7ixJVl/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 3
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/153dG9W0YYsJskimt6tRtavNmAh0hTRvk/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 4
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/17d2mEdO9CPKg09I90ArGkHXiPr5hBofe/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 5
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/19eQOBRufL2n5V8_hY2MIbSmed6QfCQi_/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 6
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1Aq_KRR8CiEO8tcM1F28Pdn5w0l9sc7lf/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 7
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1BRApkx7eOGOnRt8hu2nsy8UOykZGO4wb/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 8
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1GDEI0qpLJkI3VTSUPG00whViB5JYxkzw/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 9
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1Px0Ak50Q2cOsHrmPn4FdSHhHP61VrPFB/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 10
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1RdVkaGan9Mcx1C2iORacv3et4mzg1rQ9/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 11
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1_2MCCa7EJThhuPy-7fZA_Kj5xmVW7af3/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 12
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1bIsEEDXV8afA25i2IHAX4SK9r5sIfMeI/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 13
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1bKXf-r0rnuUlKSFoklrAjwEUp4CuAHsC/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 14
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1cuKARyRlBak0elxr1ylBXbN1EFHa_0p1/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 15
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1eUPiw9aHnTLFvmwKJraBPQ7Zk4QBvpeN/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 16
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1fDCaD3vpF3dlejzH6Ioxvx4Ic_6JZ3UD/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 17
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1hR0iN49IxVW9u93ajjft_VnU75LkFSnG/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 18
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1nXEMbHybIpyhId2V0OKbZ9rmsDd1aBkz/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 19
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1nxMX2M6iTr2zoF_Ep7o2lgLY454628jb/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 20
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221r-1PYYgrGJ2cZYf-MK8CQj5UIRNoiUgI%22%5D,%22action%22:%22open%22,%22userId%22:%22102699850012349971751%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank">
+                        <span class="link-icon">🤖</span> AI Studio Chat
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1t9vs7OQLskPd3kNUN-O3JunQUXoYARYV/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 21
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1zjE0WVEI3knr7DbrjShXN_vROhCSg3zw/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Dashboard File 22
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advanced Weather Analytics -->
+        <div class="project-section">
+            <h2>⛅ Advanced Weather Analytics & Forecasting</h2>
+            <a href="https://github.com/GopalTomar/advanced-weather-app" class="github-link" target="_blank">
+                ⭐ View on GitHub
+            </a>
+            <div class="links-container">
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/13FaA3MRjoNAqPcWJQbW3AA91KOXHedzc/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Weather File 1
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/14K2eiLXs6L-W7LhPmMhxYkXtyMek4pUY/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Weather File 2
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221EHB26EDGz6pQyUFsN0pYLFqKjcnvKWMy%22%5D,%22action%22:%22open%22,%22userId%22:%22102699850012349971751%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank">
+                        <span class="link-icon">🤖</span> AI Studio Chat
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1FwiQiBAGljCruLGvZDhNnoaNr0j0pP3X/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Weather File 3
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1HduRCYCJVOxp-HoYezaH-YdCE3Sebtb6/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Weather File 4
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1mDI5-Qmp36GxTTkEjnfscU511fmo7HEf/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Weather File 5
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1tNVpjqamRStsPhGH3sg6T3nkc3Nzb6vK/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Weather File 6
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Talk to Your Codebase -->
+        <div class="project-section">
+            <h2>💬 Talk to Your Codebase (RAG Application)</h2>
+            <a href="https://github.com/GopalTomar/repo-ai-assistant" class="github-link" target="_blank">
+                ⭐ View on GitHub
+            </a>
+            <div class="links-container">
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/14fBdm9j8JJJCz1OWrclrDp5qbV408BuU/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 1
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/17J8H6U6JAE0l4zJDmnToskyp4YIcx961/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 2
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/17U_TjQX7ZHylOETes4sQj7_s4QRSc34X/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 3
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1SP-jK4DhLncJGJibxk72iL4CFaK35aD-/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 4
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1UNCSVXFeYux355O_pZ7qaGgDqMRz_sUF/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 5
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1cPXef6DyQroH3FOas_-mb5eh6WelHAzb/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 6
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1coMo_2ZmdL-0exlngiYfG8G-AuSC1fRj/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 7
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1jJRMEHEWj2s-d7h0OmMxwDQz4iwVV_wO/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 8
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1rApjwvwEDNrOIsNkah8OPxKyTPhudq3Z/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 9
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1t8RCgWUyk19vLx3klmJrwIOw4t4Tm_xi/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 10
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221wkhnp1jdngDXlwlh3uNFONH9-7ksClEs%22%5D,%22action%22:%22open%22,%22userId%22:%22102699850012349971751%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank">
+                        <span class="link-icon">🤖</span> AI Studio Chat
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1xwLoAlo6x5G-RwfSI2h69VWkB416cBI3/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> RAG File 11
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cat vs Dog Classification -->
+        <div class="project-section">
+            <h2>🐱🐶 Cat vs. Dog Image Classification</h2>
+            <a href="https://github.com/GopalTomar/Cat_dog_classify_project" class="github-link" target="_blank">
+                ⭐ View on GitHub
+            </a>
+            <div class="links-container">
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/17RYSLPtLV-fAMKWokErvKafYL7ZJOEI7/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Classification File 1
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/19hI2J8nbzYLWXlb0Ed_RxO8T0kSJ9MVD/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Classification File 2
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221Gnr82BFrmQf0-Rr1lKjUfftoq-jS5lS8%22%5D,%22action%22:%22open%22,%22userId%22:%22102699850012349971751%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank">
+                        <span class="link-icon">🤖</span> AI Studio Chat
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1JKlAJpIm6qMFWaK0hdKVlXOHUD39pizc/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Classification File 3
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1NaPvI5UgueUCZKhHoyOV4TFkeH4ejm2y/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Classification File 4
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1bkxkzJyZUDqMz5DsFECmHCXAsKmXxNfV/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Classification File 5
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1bum2DQr0XBRmM1QsNqrC13r0nln0x7tW/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Classification File 6
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1igfs3Y0T1eJDUxC4mb_ZaEeBJaBhthk2/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Classification File 7
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://drive.google.com/file/d/1kx1m1X8xSR8MbQ4EN9WDo3nOBx1pT-Ri/view?usp=sharing" target="_blank">
+                        <span class="link-icon">📄</span> Classification File 8
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
